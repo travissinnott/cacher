@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+//const yargs = require('yargs');
+const Cacher = require('../'); // Load entire module according to package.json
+
+let c = new Cacher(process.argv[2], process.argv[3])
+
+c.fetch();

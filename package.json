@@ -1,0 +1,26 @@
+{
+  "name": "cacher",
+  "version": "1.0.0",
+  "description": "Fetch a file at regular intervals",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/travissinnott/cacher.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "Travis Sinnott <travis.sinnott@notable.space>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travissinnott/cacher/issues"
+  },
+  "homepage": "https://github.com/travissinnott/cacher#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
